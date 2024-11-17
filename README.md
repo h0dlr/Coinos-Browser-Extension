@@ -1,16 +1,16 @@
-# Nutstash Wallet - Browser Extension
+# Coinos Wallet - Browser Extension
 
-![Extension Icon](https://github.com/SuperAtic/NutStash-Browser-Extension/blob/main/images/icon48.png)
+![Extension Icon](https://coinos.io/favicon.svg)
 
 ## Description
 
-The Nutstash Wallet Extension is a Chrome/Brave (and any other chromium-based) browser extension that allows users to embed the Nutstash wallet app into their browser for easy access to their financial information.
+The Coinos Wallet Extension is a Chrome/Brave (and any other chromium-based) browser extension that allows users to embed the Coinos.io wallet webApp into your browser for easy access.
 
 ## Features
 
-- Embed the Nutstash wallet app within a browser extension.
-- Automatically detects websites that support ecash payments.
-- Displays a green dot on the extension icon when ecash payments are supported on the current page.
+- [x] Embed the Coinos wallet app within a browser extension.
+- [ ] Automatically detects websites that support Bitcoin Lightning payments.
+- [ ] Displays a green dot on the extension icon when ecash payments are supported on the current page.
 
 ## Installation
 
@@ -23,8 +23,8 @@ The Nutstash Wallet Extension is a Chrome/Brave (and any other chromium-based) b
 
 ## Usage
 
-1. Click the extension icon in the Chrome toolbar to open the Nutstash wallet app in a popup window.
-2. The extension will automatically detect websites that support ecash payments and display a green dot on the extension icon when applicable.
+1. Click the extension icon in the Chrome toolbar to open the Coinos wallet app in a popup window.
+2. The extension will automatically detect websites that support lightning payments and display a green dot on the extension icon when applicable.
 3. Click the green dot to view available ecash payment options.
 
 ## Contributing
