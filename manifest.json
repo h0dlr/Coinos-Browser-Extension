@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Nutstash Wallet Embedder",
-  "version": "1.1",
-  "description": "Embed wallet.nutstash.app in your browser.",
+  "name": "Coinos Wallet Embedder",
+  "version": "1.2",
+  "description": "Embed Coinos.io wallet in your browser.",
   "permissions": ["activeTab", "storage"],
   "icons": {
-    "16": "images/icon16.png",
-    "48": "images/icon48.png",
-    "128": "images/icon128.png"
+    "16": "https://coinos.io/favicon.svg",
+    "48": "https://coinos.io/favicon.svg",
+    "128": "https://coinos.io/favicon.svg"
   },
   "content_scripts": [
     {
@@ -18,13 +18,13 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "48": "images/icon48.png"
+      "48": "https://coinos.io/favicon.svg"
     }
   },
   "options_page": "settings.html", // Add this line
   "action": {
     "default_icon": {
-      "48": "images/icon48.png"
+      "48": "https://coinos.io/favicon.svg"
     },
     "default_popup": "popup.html",
     "badge": {
